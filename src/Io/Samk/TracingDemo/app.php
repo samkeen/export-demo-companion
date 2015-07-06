@@ -82,7 +82,7 @@ $app->get(
 );
 
 $app->post(
-    '/payloads',
+    '/work',
     function (Request $request) use ($app) {
         $app['monolog']->addInfo('Received Work: ' . $request->getContent());
 
