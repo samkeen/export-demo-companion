@@ -24,7 +24,7 @@ $app->register(
     array(
         'monolog.logfile' => $topDir . '/logs/development.log',
         'monolog.level' => Logger::INFO,
-        'monolog.name' => 'FileExporterApp'
+        'monolog.name' => 'FileExporterAppCompanion'
     )
 );
 //##############################//
